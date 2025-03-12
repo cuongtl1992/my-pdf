@@ -1,0 +1,298 @@
+{
+  "appTitle": "My PDF",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "pdfViewer": "PDF Viewer",
+  "@pdfViewer": {
+    "description": "Title for the PDF viewer screen"
+  },
+  "openPdfFile": "Open PDF",
+  "@openPdfFile": {
+    "description": "Button text to open a PDF file"
+  },
+  "recentFiles": "Recent Files",
+  "@recentFiles": {
+    "description": "Header for the recent files section"
+  },
+  "sort": "Sort",
+  "@sort": {
+    "description": "Button text for sorting files"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Tooltip for refresh button"
+  },
+  "recentFilesRefreshed": "Recent files refreshed",
+  "@recentFilesRefreshed": {
+    "description": "Message shown when recent files are refreshed"
+  },
+  "searchPdfFiles": "Search PDF files...",
+  "@searchPdfFiles": {
+    "description": "Hint text for search field"
+  },
+  "noRecentFiles": "No recent files",
+  "@noRecentFiles": {
+    "description": "Text shown when there are no recent files"
+  },
+  "recentFilesWillAppearHere": "Your recently opened files will appear here",
+  "@recentFilesWillAppearHere": {
+    "description": "Subtext shown when there are no recent files"
+  },
+  "mostRecentFirst": "Most Recent First",
+  "@mostRecentFirst": {
+    "description": "Sort option for most recent files first"
+  },
+  "oldestFirst": "Oldest First",
+  "@oldestFirst": {
+    "description": "Sort option for oldest files first"
+  },
+  "noPdfSelected": "No PDF file selected",
+  "@noPdfSelected": {
+    "description": "Text shown when no PDF is selected"
+  },
+  "page": "Page {current} of {total}",
+  "@page": {
+    "description": "Text showing current page number",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "1"
+      },
+      "total": {
+        "type": "int",
+        "example": "10"
+      },
+      "pageNumber": {
+        "type": "Object",
+        "example": "1"
+      }
+    }
+  },
+  "editingModeEnabled": "Editing mode enabled",
+  "@editingModeEnabled": {
+    "description": "Message shown when editing mode is enabled"
+  },
+  "editingModeDisabled": "Editing mode disabled",
+  "@editingModeDisabled": {
+    "description": "Message shown when editing mode is disabled"
+  },
+  "addAnnotation": "Add Annotation",
+  "@addAnnotation": {
+    "description": "Button text and dialog title for adding annotations"
+  },
+  "enterAnnotationText": "Enter annotation text",
+  "@enterAnnotationText": {
+    "description": "Hint text for annotation input field"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Button text for cancel action"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Button text for add action"
+  },
+  "annotationAdded": "Annotation added",
+  "@annotationAdded": {
+    "description": "Message shown when annotation is added"
+  },
+  "highlightText": "Highlight Text",
+  "@highlightText": {
+    "description": "Button text for highlighting text"
+  },
+  "selectTextToHighlight": "Select text to highlight",
+  "@selectTextToHighlight": {
+    "description": "Message shown when highlight mode is enabled"
+  },
+  "deletePage": "Delete Page",
+  "@deletePage": {
+    "description": "Button text and dialog title for deleting a page"
+  },
+  "deletePageConfirmation": "Are you sure you want to delete this page?",
+  "@deletePageConfirmation": {
+    "description": "Confirmation message for deleting a page",
+    "placeholders": {
+      "pageNumber": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Button text for delete action"
+  },
+  "pageDeleted": "Page deleted",
+  "@pageDeleted": {
+    "description": "Message shown when a page is deleted"
+  },
+  "undoPageDeletion": "Undo Last Operation",
+  "@undoPageDeletion": {
+    "description": "Button text to undo page deletion"
+  },
+  "savePdf": "Save PDF",
+  "@savePdf": {
+    "description": "Button text for saving PDF"
+  },
+  "enterFileName": "Enter file name",
+  "@enterFileName": {
+    "description": "Hint text for file name input field"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Button text for save action"
+  },
+  "pdfSaved": "PDF saved successfully",
+  "@pdfSaved": {
+    "description": "Message shown when PDF is saved successfully"
+  },
+  "errorSavingPdf": "Error saving PDF",
+  "@errorSavingPdf": {
+    "description": "Message shown when there's an error saving PDF"
+  },
+  "cannotShareSamplePdf": "Cannot share sample PDF. Please open a file from your device.",
+  "@cannotShareSamplePdf": {
+    "description": "Message shown when trying to share sample PDF"
+  },
+  "cannotOpenFolderForSamplePdf": "Cannot open folder for sample PDF. Please open a file from your device.",
+  "@cannotOpenFolderForSamplePdf": {
+    "description": "Message shown when trying to open folder for sample PDF"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Title for settings screen"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Label for language selection"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+  "spanish": "Spanish",
+  "@spanish": {
+    "description": "Spanish language option"
+  },
+  "french": "French",
+  "@french": {
+    "description": "French language option"
+  },
+  "german": "German",
+  "@german": {
+    "description": "German language option"
+  },
+  "chinese": "Chinese",
+  "@chinese": {
+    "description": "Chinese language option"
+  },
+  "vietnamese": "Vietnamese",
+  "@vietnamese": {
+    "description": "Vietnamese language option"
+  },
+  "systemDefault": "System Default",
+  "@systemDefault": {
+    "description": "System default language option"
+  },
+  "languageChanged": "Language changed",
+  "@languageChanged": {
+    "description": "Message shown when language is changed"
+  },
+  "passwordProtectedPdf": "Password Protected PDF",
+  "@passwordProtectedPdf": {
+    "description": "Title for password protected PDF dialog"
+  },
+  "enterPasswordToOpen": "This PDF is password protected. Please enter the password to open it.",
+  "@enterPasswordToOpen": {
+    "description": "Message shown when PDF is password protected"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password input field"
+  },
+  "unlock": "Unlock",
+  "@unlock": {
+    "description": "Button text for unlocking password protected PDF"
+  },
+  "incorrectPassword": "Incorrect password. Please try again.",
+  "@incorrectPassword": {
+    "description": "Message shown when password is incorrect"
+  },
+  "corruptPdf": "Corrupt PDF",
+  "@corruptPdf": {
+    "description": "Title for corrupt PDF dialog"
+  },
+  "corruptPdfMessage": "This PDF file appears to be corrupt. Some pages may not display correctly.",
+  "@corruptPdfMessage": {
+    "description": "Message shown when PDF is corrupt"
+  },
+  "goBack": "Go Back",
+  "@goBack": {
+    "description": "Button text for going back"
+  },
+  "largeFile": "Large File",
+  "@largeFile": {
+    "description": "Title for large file warning dialog"
+  },
+  "largeFileWarning": "This PDF file is larger than 50MB and may take longer to load. Continue?",
+  "@largeFileWarning": {
+    "description": "Warning message for large PDF files"
+  },
+  "continue_": "Continue",
+  "@continue_": {
+    "description": "Button text for continue action"
+  },
+  "scrollingTooFast": "Scrolling too fast! Slowing down...",
+  "@scrollingTooFast": {
+    "description": "Message shown when scrolling is throttled"
+  },
+  "unsavedChanges": "Unsaved Changes",
+  "@unsavedChanges": {
+    "description": "Title for unsaved changes dialog"
+  },
+  "resumeUnsavedSession": "You have unsaved changes from {time}. Would you like to resume editing?",
+  "@resumeUnsavedSession": {
+    "description": "Message shown when there are unsaved changes",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "10:30 AM"
+      },
+      "timestamp": {
+        "type": "Object",
+        "example": "Jan 1, 2023 12:00 PM"
+      }
+    }
+  },
+  "resume": "Resume",
+  "@resume": {
+    "description": "Button text for resuming editing"
+  },
+  "discard": "Discard",
+  "@discard": {
+    "description": "Button text for discarding changes"
+  },
+  "noChangesToSave": "No changes to save",
+  "@noChangesToSave": {
+    "description": "Message shown when there are no changes to save"
+  },
+  "theme": "Theme",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "systemMode": "System Mode",
+  "sharePdf": "Share PDF",
+  "shareFile": "Share File",
+  "openFolder": "Open Folder",
+  "passwordRequired": "Password Required",
+  "enterPassword": "Enter password to open this PDF",
+  "continueAnyway": "Continue Anyway",
+  "deletePageWarning": "This action cannot be undone after saving.",
+  "saveAsNewFile": "Save as new file",
+  "fileName": "File name",
+  "sortByDate": "Sort by date",
+  "sortByDateAsc": "Oldest first",
+  "sortByDateDesc": "Newest first",
+  "search": "Search",
+  "clearSearch": "Clear search"
+} 
